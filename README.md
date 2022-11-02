@@ -93,7 +93,7 @@ The task has 5 sub-tasks. Each sub-task is a small coding exercise.
 
    $`x_1 = a, x_2 = b, x_{n+1}=f(x_n, x_{n - 1}), n = 2, 3, ...`$
   
-The following sequences are used as test sequences.
+- The following sequences are used as test sequences.
 
    $`x_1 = 1, x_2 = 1, x_{n + 1} = x_n +  x_{n - 1}, n = 2, 3, ... T`$ - integer type;     
    $`x_1 = 1, x_2 = 2, x_{n + 1} = 6 x_n - 8 x_{n - 1}, n = 2, 3, ... T`$ - integer type;    
