@@ -17,13 +17,13 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
+- Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
 
-Implement a generator of the `n`-first members of a sequence of the elements of the type `T` according to the following recurrence formula:   
+- Implement a generator of the `n`-first members of a sequence of the elements of the type `T` according to the following recurrence formula:   
 
    $`x_{n+1}=f(x_n), n = 1, 2, ...`$
   
-[Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test project.
+- [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test project.
 
 </details>
 
