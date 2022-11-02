@@ -70,8 +70,6 @@ The task has 5 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-</details>
-
 - Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
 
 - Implement an operation on the elements of a sequence which is created by recurrent formula: 
@@ -80,6 +78,7 @@ The task has 5 sub-tasks. Each sub-task is a small coding exercise.
 
 - [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
+</details>
 
 <details>
 <summary>
