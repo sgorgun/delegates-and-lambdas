@@ -36,13 +36,11 @@ The number of elements that were generated is defined by the condition dynamical
 
 Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
 
-Implement a generic generator  of a sequence of the elements of the type `T` according to the following recurrence formula:
+Implement a generic generator of the `n`-element of the sequence of the `T` type elements according to the following recurrence formula:
 
    $`x_{n+1}=f(x_n), n = 1, 2, ...`$
 
-Count of the elements are defined by condition dynamically.
-
-[Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test proj
+[Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test project.
 
 #### Sub-task 4
 
