@@ -19,9 +19,9 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
       
 - Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
 
-- Implement a generator of the first `n`-elements of a sequence which is created by recurrent formula:   
+- Implement a generator of the first `n` elements of a sequence which is created by recurrent formula:   
 
-$`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
+   $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
   
 - [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
@@ -38,7 +38,7 @@ $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
 - Implement a generator of the elements of a sequence which is created by recurrent formula: 
 
-$`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
+   $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
 The number of elements that were generated is defined by the condition.
 
@@ -57,7 +57,7 @@ The number of elements that were generated is defined by the condition.
 
 - Implement a generator of the `n`s element of a sequence which is created by recurrent formula: 
    
-$`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
+   $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
 - [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
