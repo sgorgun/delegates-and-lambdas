@@ -78,6 +78,7 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 **Sub-task #5**
 
 </summary>
+
 - Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
 
 - Implement a generator of the first `n` elements of a sequence which is created by recurrent formula:   
