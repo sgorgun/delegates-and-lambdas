@@ -10,7 +10,13 @@ The task requires .NET 6 SDK installed.
 
 The task has ? sub-tasks. Each sub-task is a small coding exercise.
 
-#### Sub-task 1
+<details>
+<summary>
+
+**Sub-task #1**
+
+</summary>
+
 
 Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
 
@@ -19,6 +25,8 @@ Implement a generator of the `n`-first members of a sequence of the elements of 
    $`x_{n+1}=f(x_n), n = 1, 2, ...`$
   
 [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test project.
+
+  <details>
 
 #### Sub-task 2
 
