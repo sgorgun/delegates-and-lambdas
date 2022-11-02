@@ -10,20 +10,39 @@ The task has ? sub-tasks. Each sub-task is a small coding exercise.
 
 #### Sub-task 1
 
-Open the []() file, and navigate to the [GenerateProgression]() method.
+Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
 
 Implement a generator of the `n`-first members of a sequence of the elements of the type `T` according to the following recurrence formula:   
 
    $`x_{n+1}=f(x_n), n = 1, 2, ...`$
-
   
 [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test project.
 
 #### Sub-task 2
 
-Open the []() file, and navigate to the []() method.
+Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
 
-Implement a generic generator of the `n`-first members of a sequence of the elements of the type `T` according to the following recurrence formula:
+Implement a generic generator  of a sequence of the elements of the type `T` according to the following recurrence formula:
+
+   $`x_{n+1}=f(x_n), n = 1, 2, ...`$
+
+Count of the elements are defined by condition dynamically.
+
+[Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test proj
+
+#### Sub-task 3
+
+Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
+
+Implement a generic generator  of a sequence of the elements of the type `T` according to the following recurrence formula:
+
+   $`x_{n+1}=f(x_n), n = 1, 2, ...`$
+
+Count of the elements are defined by condition dynamically.
+
+[Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test proj
+
+
 
    $`x_1 = a, x_2 = b, x_{n+1}=f(x_n, x_{n - 1}), n = 2, 3, ...`$
   
