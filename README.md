@@ -21,9 +21,9 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
 - Implement a generator of the first `n`-elements of a sequence which is created by recurrent formula:   
 
-   $`x_{n+1}=f(x_n), n = 1, 2, ...`$
+$`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
   
-- [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test project.
+- [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
 </details>
 
@@ -38,11 +38,11 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
 - Implement a generator of the elements of a sequence which is created by recurrent formula: 
 
-   $`x_{n+1}=f(x_n), n = 1, 2, ...`$
+$`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
 The number of elements that were generated is defined by the condition.
 
-- [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test project.
+- [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
 </details>
 
@@ -57,9 +57,9 @@ The number of elements that were generated is defined by the condition.
 
 - Implement a generator of the `n`s element of a sequence which is created by recurrent formula: 
    
-   $`x_{n+1}=f(x_n), n = 1, 2, ...`$
+$`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
-- [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test project.
+- [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
 </details>
 
@@ -78,9 +78,9 @@ The number of elements that were generated is defined by the condition.
 **Sub-task #5**
 
 </summary>
-Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
+- Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
 
-   $`x_1 = a, x_2 = b, x_{n+1}=f(x_n, x_{n - 1}), n = 2, 3, ...`$
+$`x_1 = a, x_2 = b, x_{n+1}=f(x_n, x_{n - 1}), n = 2, 3, ...`$
   
 Check the generator work by using the following sequences:
 
