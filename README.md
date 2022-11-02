@@ -28,9 +28,9 @@ Implement a generic generator  of a sequence of the elements of the type `T` acc
 
    $`x_{n+1}=f(x_n), n = 1, 2, ...`$
 
-Count of the elements are defined by condition dynamically.
+The number of elements that were generated is defined by the condition dynamically.
 
-[Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test proj
+[Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test project.
 
 #### Sub-task 3
 
@@ -44,7 +44,9 @@ Count of the elements are defined by condition dynamically.
 
 [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences in the test proj
 
+#### Sub-task 4
 
+Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
 
    $`x_1 = a, x_2 = b, x_{n+1}=f(x_n, x_{n - 1}), n = 2, 3, ...`$
   
