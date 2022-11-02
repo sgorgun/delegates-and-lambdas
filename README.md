@@ -16,7 +16,7 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 **Sub-task #1**
 
 </summary>
-
+      
 - Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
 
 - Implement a generator of the `n`-first members of a sequence of the elements of the type `T` according to the following recurrence formula:   
