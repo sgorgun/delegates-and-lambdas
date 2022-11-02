@@ -1,7 +1,15 @@
 # Delegates and Lambdas (in progress!)
 
-## 
+Intermediate level task for practicing delegates and lambdas.  
+Estimated time to complete the task - 3h.  
+The task requires .NET 6 SDK installed.   
 
+## Task Description
+The task has ? sub-tasks. Each sub-task is a small coding exercise.
+
+#### Sub-task 1
+
+Open the []() file, and navigate to the []() method.
 
 Implement a generic generator of the `n`-first members of a sequence of the elements of the type `T` according to the following recurrence formula:
 
