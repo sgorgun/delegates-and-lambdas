@@ -8,7 +8,7 @@ The task requires .NET 6 SDK installed.
 
 ## Task Description
 
-The task has 6 sub-tasks. Each sub-task is a small coding exercise.
+The task has ? sub-tasks. Each sub-task is a small coding exercise.
 
 <details>
 <summary>
@@ -17,9 +17,9 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
       
-- Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
+- Open the [FunctionExtensions.cs]() file.
 
-- Implement a method generator of the first `n` elements of a sequence which is created by recurrent formula:   
+- Implement a [GenerateProgression]() method that generates a sequence of the elements of type T according to the following recursive formula: 
 
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
   
@@ -34,9 +34,9 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-- Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
+- Open the [FunctionExtensions.cs]() file.
 
-- Implement a method generator of the elements of a sequence which is created by recurrent formula: 
+- Implement a [GenerateProgression]() method that generates a sequence of the elements of type T according to the following recursive formula: 
 
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
@@ -53,9 +53,9 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-- Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
+- Open the [FunctionExtensions.cs]() file.
 
-- Implement a method generator of the `n`s element of a sequence which is created by recurrent formula: 
+- Implement a [GetElement]() method that generates a `n`s element of the sequence of the elements of type T according to the following recursive formula: 
    
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
