@@ -1,4 +1,4 @@
-# Delegates and Lambdas (in progress!)
+# Delegates and Lambdas
 
 Intermediate level task for practicing delegates and lambdas. 
 
