@@ -1,6 +1,6 @@
 # Delegates and Lambdas (in progress!)
 
-Intermediate level task for practicing `Func`, `Predicate` and `Comparision` delegates and lambdas. 
+Intermediate level task for practicing delegates and lambdas. 
 
 Estimated time to complete the task - 4h.  
 
