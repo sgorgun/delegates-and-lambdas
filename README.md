@@ -19,11 +19,11 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
       
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [GenerateProgression]() method that generates a sequence of the elements of type T using the following recurrent formula: 
+- Implement a generic [GenerateProgression]() method that generates a sequence of the elements of type T using the following recurrent formula: 
 
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
-   The number of requested elements is defined by the given number.
+   The count of requested elements is defined by the given number.
   
 - [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
@@ -42,7 +42,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
-   The number of requested elements is defined by the condition.
+   The count of requested elements is defined by the condition.
 
 - [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
@@ -74,7 +74,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a generic [Calculation]() method which calculates a value as a composition of sequentially executed binary operation $`operation(x, y)`$ on the elements of the sequence using the rule:
+- Implement a generic [Calculation]() method which calculates a value as a composition of sequentially executed binary operation $`operation(x, y)`$ on the elements of the sequence by the rule:
 
    $`r = operation(x_1, x_2)`$, $`r = operation(r, x_3)`$,  ... , $`r = operation(r, x_n)`$
 
@@ -82,7 +82,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
    
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
-   The number of requested elements for the calculation is defined by the given number.
+   The count of requested elements for the calculation is defined by the given number.
 
 - [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
