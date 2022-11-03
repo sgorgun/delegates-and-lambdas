@@ -122,7 +122,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement the generic `Max` method that fines maximum from two elements of the type `T`.
+- Implement the generic `Max` method that finds maximum from two elements of the type `T`.
 
 </details>
 
