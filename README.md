@@ -22,6 +22,8 @@ The task has ? sub-tasks. Each sub-task is a small coding exercise.
 - Implement a [GenerateProgression]() method that generates a sequence of the elements of type T according to the following recursive formula: 
 
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
+
+   The number of elements that were generated is defined by the given number.
   
 - [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
@@ -72,7 +74,7 @@ The task has ? sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [Calculation]() method that applies a binary operation  $`operation(x, y)`$ sequentially to all elements of the sequence
+- Implement a [Calculation]() method that applies a binary operation  $`operation(x, y)`$ sequentially to all elements of the sequence according to rule:
 
    $`r = operation(x_1, x_2)`$
 
@@ -99,7 +101,9 @@ The task has ? sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-- Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
+- Open the [FunctionExtensions.cs]() file.
+
+- Implement a [GenerateProgression]() method that generates a sequence of the elements of type T according to the following recursive formula: 
 
 - Implement a generator of the first `n` elements of a sequence which is created by recurrent formula:   
 
