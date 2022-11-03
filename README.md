@@ -8,7 +8,7 @@ The task requires .NET 6 SDK installed.
 
 ## Task Description
 
-The task has 5 sub-tasks. Each sub-task is a small coding exercise.
+The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
 <details>
 <summary>
@@ -98,5 +98,18 @@ The task has 5 sub-tasks. Each sub-task is a small coding exercise.
    $`x_1 = 1, x_2 = 1, x_{n + 1} = x_n +  x_{n - 1}, n = 2, 3, ... T`$ - integer type;     
    $`x_1 = 1, x_2 = 2, x_{n + 1} = 6 x_n - 8 x_{n - 1}, n = 2, 3, ... T`$ - integer type;    
    $`x_1 = 1, x_2 = 2, x_{n + 1} = x_n +  x_{n - 1} / x_{n}, n = 2, 3, ... T`$ - real type.
+
+</details>
+
+<details>
+<summary>
+
+**Sub-task #6**
+
+</summary>
+
+- Open the [FunctionExtensions.cs]() file, and navigate to the [CombinePredicates]() method.
+
+- Implement the CombinePredicates method for the generic delegate Predicate<T>, which allows you to combine several predicate conditions using the logical AND operation (&&).
 
 </details>
