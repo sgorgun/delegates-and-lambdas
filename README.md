@@ -73,8 +73,8 @@ The task has ? sub-tasks. Each sub-task is a small coding exercise.
 - Open the [FunctionExtensions.cs]() file.
 
 - Implement an operation on the elements 
-
--    $`operation(x_1, x_2, ... , x_n`$
+   
+   $`operation(x_1, x_2, ... , x_n`$
 
 - Sequence is created by recurrent formula: 
    
