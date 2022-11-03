@@ -19,11 +19,11 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
       
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [GenerateProgression]() method that generates a sequence of the elements of type T according by the following recursive formula: 
+- Implement a [GenerateProgression]() method that generates a sequence of the elements of type T by the following recursive formula: 
 
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
-   The number of elements that were generated is defined by the given number.
+   The number of requested elements is defined by the given number.
   
 - [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
@@ -42,7 +42,7 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
-   The number of elements that were generated is defined by the condition.
+   The number of requested elements is defined by the condition.
 
 - [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
@@ -82,6 +82,8 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
    
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
+   The number of requested elements for the calculation is defined by the given number.
+
 - [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
 - Multiplication and addition operations are used as test operations.
@@ -101,8 +103,8 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
    $`x_1 = a, x_2 = b, x_{n+1}=f(x_n, x_{n - 1}), n = 2, 3, ...`$
 
-   The number of elements that were generated is defined by the given number.
-  
+   The number of requested elements is defined by the given number.
+     
 - The following sequences are used as test sequences.
 
    $`x_1 = 1, x_2 = 1, x_{n + 1} = x_n +  x_{n - 1}, n = 2, 3, ...`$, where T - integer type;     
