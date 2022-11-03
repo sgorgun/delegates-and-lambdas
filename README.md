@@ -2,7 +2,7 @@
 
 Intermediate level task for practicing `Func`, `Predicate` and `Comparision` delegates and lambdas. 
 
-Estimated time to complete the task - 3h.  
+Estimated time to complete the task - 4h.  
 
 The task requires .NET 6 SDK installed.   
 
