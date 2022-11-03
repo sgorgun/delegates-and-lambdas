@@ -38,7 +38,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [GenerateProgression]() method that generates a sequence of the elements of type T by the following recurrent formula: 
+- Implement a [GenerateProgression]() method which generates a sequence of the elements of type T by the following recurrent formula: 
 
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
@@ -57,7 +57,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [GetElement]() method that generates a `n`s element of the sequence of the elements of type T according to the following recurrent formula: 
+- Implement a [GetElement]() method which generates a `n`s element of the sequence of the elements of type T according to the following recurrent formula: 
    
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
@@ -74,7 +74,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [Calculation]() method that calculates a value as a composition of sequentially executed binary operation $`operation(x, y)`$ on the elements of the sequence by the rule:
+- Implement a [Calculation]() method which calculates a value as a composition of sequentially executed binary operation $`operation(x, y)`$ on the elements of the sequence by the rule:
 
    $`r = operation(x_1, x_2)`$, $`r = operation(r, x_3)`$,  ... , $`r = operation(r, x_n)`$
 
@@ -99,11 +99,11 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [GenerateSequence]() method that generates a sequence of the elements of type T by the following recurrent formula: 
+- Implement a [GenerateSequence]() method which generates a sequence of the elements of type T by the following recurrent formula: 
 
    $`x_1 = a, x_2 = b, x_{n+1}=f(x_n, x_{n - 1}), n = 2, 3, ...`$
 
-   The number of requested elements is defined by the given number.
+   The count of requested elements is defined by the given number.
      
 - The following sequences are used as test sequences.
 
@@ -122,7 +122,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement the generic `Max` method that finds maximum from two elements of the type `T` according to comparer logic.
+- Implement the generic `FindMax` method which finds maximum from two elements of the type `T` according to comparer logic.
 
 </details>
 
@@ -133,8 +133,8 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-- Open the [FunctionExtensions.cs]() file, and navigate to the [CombinePredicates]() method.
+- Open the [FunctionExtensions.cs]() file.
 
-- Implement the `CombinePredicates` method for the generic delegate `Predicate<T>`, which allows you to combine several predicate conditions using the logical AND operation (&&).
+- Implement the generic `CombinePredicates` method which allows you to combine several predicate conditions using the logical AND operation (&&).
 
 </details>
