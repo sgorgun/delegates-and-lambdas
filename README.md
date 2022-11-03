@@ -74,15 +74,9 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [Calculation]() method that applies a binary operation  $`operation(x, y)`$ sequentially to all elements of the sequence according to rule:
+- Implement a [Calculation]() that calculates a value as a composition of sequentially executed on the elements of the sequence binary operation   $`operation(x, y)`$ according to rule:
 
-   $`r = operation(x_1, x_2)`$
-
-   $`r = operation(r, x_3)`$
-
-   ...
-   
-   $`r = operation(r, x_n)`$
+   $`r = operation(x_1, x_2)`$, $`r = operation(r, x_3)`$,  ... , $`r = operation(r, x_n)`$
 
 - Sequence is created by recurrent formula: 
    
