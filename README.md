@@ -17,7 +17,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
       
-- Open the [FunctionExtensions.cs]() file.
+- Open the [FunctionExtensions.cs](Delegates/FunctionExtensions.cs) file.
 
 - Implement a generic [GenerateProgression]() method that generates a sequence of the elements of type T using the following recurrent formula: 
 
