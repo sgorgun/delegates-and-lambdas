@@ -99,7 +99,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [GenerateSequence]() method which generates a sequence of the elements of type T by the following recurrent formula: 
+- Implement a [GenerateSequence]() method which generates a sequence of the elements of type T using the following recurrent formula: 
 
    $`x_1 = a, x_2 = b, x_{n+1}=f(x_n, x_{n - 1}), n = 2, 3, ...`$
 
@@ -135,6 +135,6 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement the generic `CombinePredicates` method which allows you to combine several predicate conditions using the logical AND operation (&&).
+- Implement the generic `CombinePredicates` method which allows to combine several predicate conditions using the logical AND operation (&&).
 
 </details>
