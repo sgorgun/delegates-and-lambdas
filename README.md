@@ -1,6 +1,6 @@
 # Delegates and Lambdas (in progress!)
 
-Intermediate level task for practicing delegates and lambdas. 
+Intermediate level task for practicing `Func`, `Predicate` and `Comparision` delegates and lambdas. 
 
 Estimated time to complete the task - 3h.  
 
@@ -8,7 +8,7 @@ The task requires .NET 6 SDK installed.
 
 ## Task Description
 
-The task has 6 sub-tasks. Each sub-task is a small coding exercise.
+The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 <details>
 <summary>
@@ -117,6 +117,19 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 <summary>
 
 **Sub-task #6**
+
+</summary>
+
+- Open the [FunctionExtensions.cs]() file.
+
+- Implement the generic `Max` method that fines maximum from two elements of the type `T`.
+
+</details>
+
+<details>
+<summary>
+
+**Sub-task #7**
 
 </summary>
 
