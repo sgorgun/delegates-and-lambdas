@@ -110,6 +110,6 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file, and navigate to the [CombinePredicates]() method.
 
-- Implement the CombinePredicates method for the generic delegate Predicate<T>, which allows you to combine several predicate conditions using the logical AND operation (&&).
+- Implement the `CombinePredicates` method for the generic delegate `Predicate<T>`, which allows you to combine several predicate conditions using the logical AND operation (&&).
 
 </details>
