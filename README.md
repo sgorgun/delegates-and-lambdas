@@ -72,9 +72,7 @@ The task has ? sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement an operation on the elements 
-   
-   $`operation(x_1, x_2, ... , x_n`)$
+-Implement a method that applies a binary operation  $`operation(x, y)$ pairwise over the elements of a sequence 
 
 - Sequence is created by recurrent formula: 
    
