@@ -19,7 +19,7 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
       
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [GenerateProgression]() method that generates a sequence of the elements of type T by the following recursive formula: 
+- Implement a [GenerateProgression]() method that generates a sequence of the elements of type T by the following recurrent formula: 
 
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
@@ -38,7 +38,7 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [GenerateProgression]() method that generates a sequence of the elements of type T by the following recursive formula: 
+- Implement a [GenerateProgression]() method that generates a sequence of the elements of type T by the following recurrent formula: 
 
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
@@ -57,7 +57,7 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [GetElement]() method that generates a `n`s element of the sequence of the elements of type T according to the following recursive formula: 
+- Implement a [GetElement]() method that generates a `n`s element of the sequence of the elements of type T according to the following recurrent formula: 
    
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
@@ -99,7 +99,7 @@ The task has 6 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [GenerateSequence]() method that generates a sequence of the elements of type T by the following recursive formula: 
+- Implement a [GenerateSequence]() method that generates a sequence of the elements of type T by the following recurrent formula: 
 
    $`x_1 = a, x_2 = b, x_{n+1}=f(x_n, x_{n - 1}), n = 2, 3, ...`$
 
