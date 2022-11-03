@@ -70,9 +70,13 @@ The task has ? sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-- Open the [FunctionExtensions.cs]() file, and navigate to the [GenerateProgression]() method.
+- Open the [FunctionExtensions.cs]() file.
 
-- Implement an operation on the elements of a sequence which is created by recurrent formula: 
+- Implement an operation on the elements 
+
+-    $`operation(x_1, x_2, ... , x_n`$
+
+- Sequence is created by recurrent formula: 
    
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
