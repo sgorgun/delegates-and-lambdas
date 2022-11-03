@@ -36,7 +36,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-- Open the [FunctionExtensions.cs]() file.
+- Open the [FunctionExtensions.cs](Delegates/FunctionExtensions.cs) file.
 
 - Implement a generic [GenerateProgression]() method which generates a sequence of the elements of type T using the following recurrent formula: 
 
@@ -55,7 +55,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-- Open the [FunctionExtensions.cs]() file.
+- Open the [FunctionExtensions.cs](Delegates/FunctionExtensions.cs) file.
 
 - Implement a generic [GetElement]() method which generates a `n`s element of the sequence using the following recurrent formula: 
    
@@ -72,7 +72,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-- Open the [FunctionExtensions.cs]() file.
+- Open the [FunctionExtensions.cs](Delegates/FunctionExtensions.cs) file.
 
 - Implement a generic [Calculation]() method which calculates a value as a composition of sequentially executed binary operation $`operation(x, y)`$ on the elements of the sequence by the rule:
 
@@ -97,7 +97,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-- Open the [FunctionExtensions.cs]() file.
+- Open the [FunctionExtensions.cs](Delegates/FunctionExtensions.cs) file.
 
 - Implement a generic [GenerateSequence]() method which generates a sequence of the elements of type T using the following recurrent formula: 
 
@@ -120,7 +120,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-- Open the [FunctionExtensions.cs]() file.
+- Open the [FunctionExtensions.cs](Delegates/FunctionExtensions.cs) file.
 
 - Implement the generic `FindMax` method which finds maximum from two elements of the type `T` according to comparer logic.
 
@@ -133,7 +133,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 </summary>
 
-- Open the [FunctionExtensions.cs]() file.
+- Open the [FunctionExtensions.cs](Delegates/FunctionExtensions.cs) file.
 
 - Implement the generic `CombinePredicates` method which allows to combine several predicate conditions using the logical AND operation (&&).
 
