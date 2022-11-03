@@ -90,7 +90,7 @@ The task has ? sub-tasks. Each sub-task is a small coding exercise.
 
 - [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
 
-- Operations of multiplication and addition are used as test.
+- Multiplication and addition operations are used as test operations.
 
 </details>
 
@@ -111,9 +111,9 @@ The task has ? sub-tasks. Each sub-task is a small coding exercise.
   
 - The following sequences are used as test sequences.
 
-   $`x_1 = 1, x_2 = 1, x_{n + 1} = x_n +  x_{n - 1}, n = 2, 3, ... T`$ - integer type;     
-   $`x_1 = 1, x_2 = 2, x_{n + 1} = 6 x_n - 8 x_{n - 1}, n = 2, 3, ... T`$ - integer type;    
-   $`x_1 = 1, x_2 = 2, x_{n + 1} = x_n +  x_{n - 1} / x_{n}, n = 2, 3, ... T`$ - real type.
+   $`x_1 = 1, x_2 = 1, x_{n + 1} = x_n +  x_{n - 1}, n = 2, 3, ... , where T`$ - integer type;     
+   $`x_1 = 1, x_2 = 2, x_{n + 1} = 6 x_n - 8 x_{n - 1}, n = 2, 3, ... , where T`$ - integer type;    
+   $`x_1 = 1, x_2 = 2, x_{n + 1} = x_n +  x_{n - 1} / x_{n}, n = 2, 3, ... , where T`$ - real type.
 
 </details>
 
