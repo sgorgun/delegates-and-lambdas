@@ -74,13 +74,15 @@ The task has ? sub-tasks. Each sub-task is a small coding exercise.
 
 - Implement an operation on the elements 
    
-   $`operation(x_1, x_2, ... , x_n`$
+   $`operation(x_1, x_2, ... , x_n`)$
 
 - Sequence is created by recurrent formula: 
    
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
 - [Arithmetic](https://www.wikiwand.com/en/Arithmetic_progression) and [geometric](https://www.wikiwand.com/en/Geometric_progression) progressions are used as test sequences.
+
+- Operations of multiplication and addition are used as test.
 
 </details>
 
