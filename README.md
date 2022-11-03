@@ -72,11 +72,14 @@ The task has ? sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs]() file.
 
-- Implement a [Calculation]() method that applies a binary operation  $`operation(x, y)$ sequentially to all elements of the sequence
+- Implement a [Calculation]() method that applies a binary operation  $`operation(x, y)`$ sequentially to all elements of the sequence
 
    $`r = operation(x_1, x_2)`$
+
    $`r = operation(r, x_3)`$
+
    ...
+   
    $`r = operation(r, x_n)`$
 
 - Sequence is created by recurrent formula: 
