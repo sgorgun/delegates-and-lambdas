@@ -144,3 +144,13 @@ The detailed explanations of the task are provided in the XML-comments for the m
 - Run all unit tests with Visual Studio and make sure there are no failed unit tests. Fix your code to make all tests GREEN.
 - Review all your changes in the codebase before staging the changes and creating a commit.
 - Stage your changes, create a commit, and publish your changes to the remote repository.
+
+## See also
+
+- [Delegates (C# Programming Guide)](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/ms173171(v=vs.100))
+- [Using Delegates (C# Programming Guide)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/using-delegates )
+- [How to declare, instantiate, and use a Delegate (C# Programming Guide)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/how-to-declare-instantiate-and-use-a-delegate)
+- [Generic Delegates (C# Programming Guide)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-delegates)
+- [Strongly Typed Delegates](https://learn.microsoft.com/en-us/dotnet/csharp/delegates-strongly-typed)
+- [Comparison<T> Delegate](https://learn.microsoft.com/en-us/dotnet/api/system.comparison-1?view=net-7.0)
+- [Lambda expressions (C# reference)][https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions]
