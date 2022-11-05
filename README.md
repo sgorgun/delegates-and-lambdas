@@ -153,4 +153,4 @@ The detailed explanations of the task are provided in the XML-comments for the m
 - [Generic Delegates (C# Programming Guide)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/generic-delegates)
 - [Strongly Typed Delegates](https://learn.microsoft.com/en-us/dotnet/csharp/delegates-strongly-typed)
 - [Comparison<T> Delegate](https://learn.microsoft.com/en-us/dotnet/api/system.comparison-1?view=net-7.0)
-- [Lambda expressions (C# reference)][https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions]
+- [Lambda expressions (C# reference)](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
