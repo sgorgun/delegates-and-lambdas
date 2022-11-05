@@ -1,6 +1,6 @@
 # Delegates and Lambdas
 
-Intermediate level task for practicing delegates and lambdas. 
+Intermediate level task for practice delegates and lambdas. 
 
 Estimated time to complete the task - 4h.  
 
