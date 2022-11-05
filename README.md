@@ -2,7 +2,7 @@
 
 Intermediate level task for practicing delegates and lambdas. 
 
-Estimated time to complete the task - 3h.  
+Estimated time to complete the task - 4h.  
 
 The task requires .NET 6 SDK installed.   
 
@@ -138,3 +138,9 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 - Implement the generic `CombinePredicates` method which allows to combine several predicate conditions using the logical AND operation (&&).
 
 </details>
+
+The detailed explanations of the task are provided in the XML-comments for the methods and in test cases of unit tests.
+- Build a solution in Visual Studio. Make sure there are no compiler errors and warnings, fix these issues, and rebuild the solution.
+- Run all unit tests with Visual Studio and make sure there are no failed unit tests. Fix your code to make all tests GREEN.
+- Review all your changes in the codebase before staging the changes and creating a commit.
+- Stage your changes, create a commit, and publish your changes to the remote repository.
