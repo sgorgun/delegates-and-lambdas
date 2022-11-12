@@ -19,7 +19,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
       
 - Open the [FunctionExtensions.cs](Delegates/FunctionExtensions.cs) file.
 
-- Implement a generic `GenerateProgression` method that generates a sequence of the elements of type T using the following recurrent formula: 
+- Implement a generic `GenerateProgression` method that generates a sequence of the elements of type `T` using the following recurrent formula: 
 
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
@@ -38,7 +38,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs](Delegates/FunctionExtensions.cs) file.
 
-- Implement a generic `GenerateProgression` method which generates a sequence of the elements of type T using the following recurrent formula: 
+- Implement a generic `GenerateProgression` method which generates a sequence of the elements of type `T` using the following recurrent formula: 
 
    $`x_1=a, x_{n+1}=f(x_n), n = 1, 2, ...`$
 
@@ -99,7 +99,7 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
 
 - Open the [FunctionExtensions.cs](Delegates/FunctionExtensions.cs) file.
 
-- Implement a generic `GenerateSequence` method which generates a sequence of the elements of type T using the following recurrent formula: 
+- Implement a generic `GenerateSequence` method which generates a sequence of the elements of type `T` using the following recurrent formula: 
 
    $`x_1 = a, x_2 = b, x_{n+1}=f(x_n, x_{n - 1}), n = 2, 3, ...`$
 
@@ -107,9 +107,9 @@ The task has 7 sub-tasks. Each sub-task is a small coding exercise.
      
 - The following sequences are used as test sequences.
 
-   $`x_1 = 1, x_2 = 1, x_{n + 1} = x_n +  x_{n - 1}, n = 2, 3, ...`$, where T - integer type;     
-   $`x_1 = 1, x_2 = 2, x_{n + 1} = 6 x_n - 8 x_{n - 1}, n = 2, 3, ...`$, where T - integer type;    
-   $`x_1 = 1, x_2 = 2, x_{n + 1} = x_n +  x_{n - 1} / x_{n}, n = 2, 3, ...`$, where T - real type.
+   $`x_1 = 1, x_2 = 1, x_{n + 1} = x_n +  x_{n - 1}, n = 2, 3, ...`$, where `T` - integer type;     
+   $`x_1 = 1, x_2 = 2, x_{n + 1} = 6 x_n - 8 x_{n - 1}, n = 2, 3, ...`$, where `T` - integer type;    
+   $`x_1 = 1, x_2 = 2, x_{n + 1} = x_n +  x_{n - 1} / x_{n}, n = 2, 3, ...`$, where `T` - real type.
 
 </details>
 
