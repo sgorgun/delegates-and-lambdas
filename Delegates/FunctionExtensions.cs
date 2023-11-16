@@ -29,13 +29,28 @@ namespace Delegates
         /// <exception cref="ArgumentNullException">Throw when <paramref name="formula"/> is null.</exception>        
         public static IEnumerable<T> GenerateProgression<T>(T first, Func<T, T>? formula, int count)
         {
-            //TODO: Add validation logic here.
+            if (count <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(count), "is less than or equal to 0.");
+            }
+
+            if (formula is null)
+            {
+                throw new ArgumentNullException(nameof(formula), "is null.");
+            }
 
             return GeneratorCore();
 
             IEnumerable<T> GeneratorCore()
             {
-                throw new NotImplementedException();
+                var current = first;
+                yield return current;
+
+                for (var i = 1; i < count; i++)
+                {
+                    current = formula(current);
+                    yield return current;
+                }
             }
         }
 
@@ -60,13 +75,28 @@ namespace Delegates
         /// <exception cref="ArgumentNullException">Throw when <paramref name="finished"/> is null.</exception>        
         public static IEnumerable<T> GenerateProgression<T>(T first, Func<T, T>? formula, Predicate<T>? finished)
         {
-            //TODO: Add validation logic here.
+            if (formula is null)
+            {
+                throw new ArgumentNullException(nameof(formula), "is null.");
+            }
+
+            if (finished is null)
+            {
+                throw new ArgumentNullException(nameof(finished), "is null.");
+            }
 
             return GeneratorCore();
 
             IEnumerable<T> GeneratorCore()
             {
-                throw new NotImplementedException();
+                yield return first;
+                var current = formula(first);
+
+                while (!finished(current))
+                {
+                    yield return current;
+                    current = formula(current);
+                }
             }
         }
 
@@ -90,7 +120,24 @@ namespace Delegates
         /// <exception cref="ArgumentNullException">Throw when <paramref name="formula"/> is null.</exception>        
         public static T GetElement<T>(T first, Func<T, T>? formula, int number)
         {
-            throw new NotImplementedException();
+            if (number <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(number), " is less than or equal to 0.");
+            }
+
+            if (formula is null)
+            {
+                throw new ArgumentNullException(nameof(formula), "is null.");
+            }
+
+            var result = formula(first);
+            number -= 2;
+            while (number-- > 0)
+            {
+                result = formula(result);
+            }
+
+            return result;
         }
 
         /// <summary>
@@ -115,7 +162,32 @@ namespace Delegates
         /// <exception cref="ArgumentOutOfRangeException">Throw when <paramref name="count"/> is less than or equal to 0.</exception>
         public static T Calculate<T>(T first, Func<T, T>? formula, Func<T, T, T>? operation, int count)
         {
-            throw new NotImplementedException();
+            if (formula is null)
+            {
+                throw new ArgumentNullException(nameof(formula), "is null.");
+            }
+
+            if (operation is null)
+            {
+                throw new ArgumentNullException(nameof(operation), "is null.");
+            }
+
+            if (count <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(count), "is less than or equal to 0.");
+            }
+
+            var element = formula(first);
+            var result = operation(element, first);
+            count -= 2;
+
+            while (count-- > 0)
+            {
+                element = formula(element);
+                result = operation(element, result);
+            }
+
+            return result;
         }
 
         /// <summary>
@@ -133,13 +205,32 @@ namespace Delegates
         /// <exception cref="ArgumentNullException">Throw when <paramref name="formula"/> is null.</exception>
         public static IEnumerable<T> GenerateSequence<T>(T first, T second, Func<T, T, T>? formula, int count)
         {
-            //TODO: Add validation logic here.
+            if (count <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(count), "is less than or equal to 0.");
+            }
+
+            if (formula is null)
+            {
+                throw new ArgumentNullException(nameof(formula), "is null.");
+            }
 
             return GeneratorCore();
 
             IEnumerable<T> GeneratorCore()
             {
-                throw new NotImplementedException();
+                yield return first;
+                yield return second;                           
+                var result = formula(first, second);
+                yield return result;
+                count -= 3;
+                while (count-- > 0)
+                {
+                    first = second;
+                    second = result;
+                    result = formula(first, second);
+                    yield return result;
+                }
             }
         }
 
@@ -164,9 +255,25 @@ namespace Delegates
         /// </example>
         public static Predicate<T> CombinePredicates<T>(params Predicate<T>[]? predicates)
         {
-            throw new NotImplementedException();
+            if (predicates is null)
+            {
+                throw new ArgumentNullException(nameof(predicates), "is null.");
+            }
+
+            return x =>
+            {
+                foreach (var predicate in predicates)
+                {
+                    if (!predicate(x))
+                    {
+                        return false;
+                    }
+                }
+
+                return true;
+            };
         }
-        
+
         /// <summary>
         /// Finds maximum from two elements according to comparer logic.
         /// If elements are equal returns <paramref name="lhs"/>.
@@ -179,7 +286,12 @@ namespace Delegates
         /// <exception cref="ArgumentNullException">Thrown when comparer is null.</exception>
         public static T FindMax<T>(T lhs, T rhs, Comparison<T>? comparer)
         {
-            throw new NotImplementedException();
+            if (comparer is null)
+            {
+                throw new ArgumentNullException(nameof(comparer), "is null.");
+            }
+
+            return comparer(lhs, rhs) >= 0 ? lhs : rhs;
         }
     }
 }
